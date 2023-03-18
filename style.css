@@ -190,8 +190,63 @@ nav {
 
   }
 
+  @media (max-width: 375px) {
+    /* Styles to apply when the screen is 375px or less */
+    /* This is the width of an iPhone 12 and iPhone 13 mini, iPhone 12 mini, iPhone 11 Pro, iPhone Xs, and iPhone X */
+    #icon-phone {
+        display: none;
+    }
+
+    #icon-question {
+        display: none;
+    }
+
+    #icon-person {
+        display: none;
+    }
+
+    #icon-cart {
+        display: none;
+    }
+
+    .navbar-icons {
+        display: none;
+    }
+
+    h1 {
+        top: 30%;
+        left: 50%;
+        font-size: 20px !important;
+    }
+
+    h2 {
+        top: 40%;
+        left: 50%;
+        font-size: 16px !important;
+    }
+
+    #generate-btn {
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 3;
+        font-family: 'Play', sans-serif !important;  
+        font-size: 12px;
+      }
+
+      #text-container {
+        top: 60%;
+        font-size: 18px !important;
+        padding: 16px;
+      }
+
+  }
+
   @media (max-width: 768px) {
-    /* Styles to apply when the screen is 320px or less */
+    /* Styles to apply when the screen is 768px or less */
     /* This is the width of an iPad or other tablets in portrait orientation */
     #icon-phone {
         display: none;
@@ -246,17 +301,17 @@ nav {
   }
 
   @media (max-width: 1024px) {
-    /* Styles to apply when the screen is 320px or less */
+    /* Styles to apply when the screen is 1024px or less */
     /* This is the width of most tablets in landscape orientation */
   }
 
   @media (max-width: 1440px) {
-    /* Styles to apply when the screen is 320px or less */
+    /* Styles to apply when the screen is 1440px or less */
     /* This is the width of many laptops and desktop monitors */
   }
 
   @media (max-width: 1920px) {
-    /* Styles to apply when the screen is 320px or less */
+    /* Styles to apply when the screen is 1920px or less */
     /* This is the width of larger desktop monitors and some gaming laptops */
   }
   
