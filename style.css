@@ -191,7 +191,7 @@ nav {
   }
 
   @media (min-width: 321px) and (max-width: 399px) {
-    /* Styles to apply when the screen is 375px or less */
+    /* Styles to apply when the screen is 399px or less */
     /* This is the width of an iPhone 12 and iPhone 13 mini, iPhone 12 mini, iPhone 11 Pro, iPhone Xs, and iPhone X */
     #icon-phone {
         display: none;
@@ -245,10 +245,10 @@ nav {
 
   }
 
-  @media (max-width: 768px) {
-    /* Styles to apply when the screen is 768px or less */
+  @media (min-width: 400px) and  (max-width: 799px) {
+    /* Styles to apply when the screen is 799px or less */
     /* This is the width of an iPad or other tablets in portrait orientation */
-    /* #icon-phone {
+    #icon-phone {
         display: none;
     }
 
@@ -298,7 +298,7 @@ nav {
         padding: 16px;
       }
 
-  } */
+  }
 
   @media (max-width: 1024px) {
     /* Styles to apply when the screen is 1024px or less */
