@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Set the height of the body to 100vh to fill the viewport */
+  background-image: url("assets/photo-1642019341061-f81d61659c62.avif");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Play', sans-serif !important;  
+  }
+ 
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Play', sans-serif !important;  
+
+  }
+  
+  button {
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 1px 50px rgba(0, 0, 0, 0.25);
+    font-family: 'Play', sans-serif !important;  
+    font-size: 1rem;
+  }
+
+  #generate-btn {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    font-family: 'Play', sans-serif !important;  
+    font-size: 1rem;
+  }
+  
+  #text-container {
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    font-family: 'Play', sans-serif !important;  
+    font-size: 50px !important;
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+ h1 {
+    position:absolute;
+    text-align: center;
+    color: white !important;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px !important;
+    z-index: 1;
+    font-weight: 400;
+    font-family: 'Play', sans-serif !important; 
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    border-radius: 10px; 
+}
+  
+h2 {
+    position:absolute;
+    text-align: center;
+    color: white !important;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px !important;
+    z-index: 1;
+    font-weight: 400;
+    font-family: 'Play', sans-serif !important;  
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Rain Stuff */
+.rain-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+
+
+
+  @keyframes rain {
+    0% {
+      transform: translateY(-100px);
+      filter: blur(0px);
+    }
+    100% {
+      transform: translateY(1200px);
+      filter: blur(5px);
+    }
+  }
+  
+  .raindrop {
+    position: absolute;
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.8) 50%, transparent 50%);
+    background-size: 5px 5px;
+    width: 5px;
+    height: 20px;
+    animation: rain 80s linear infinite;
+    opacity: 0.5;
+  }
+
+  /* End of rain stuff */
