@@ -9,7 +9,7 @@ body {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: 'Play', sans-serif !important;  
+  font-family: 'Play', sans-serif;  
   }
  
   .container {
@@ -135,8 +135,8 @@ nav {
 
 
   /* Media Queries */
-  @media (max-width: 320px) {
-    /* Styles to apply when the screen is 320px or less */
+  @media (min-width: 375px) and (max-width: 388px)  {
+    /* Styles to apply when the screen is in between 375 and 389px */
     /* This is the width of an iPhone SE or other small smartphones */
     #icon-phone {
         display: none;
@@ -159,22 +159,22 @@ nav {
     }
 
     h1 {
-        top: 30%;
+        top: 40%;
         left: 50%;
-        font-size: 20px !important;
+        font-size: 18px !important;
     }
 
     h2 {
-        top: 40%;
+        top: 50%;
         left: 50%;
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
 
     #generate-btn {
         display: block;
         margin: 0 auto;
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 3;
@@ -183,16 +183,16 @@ nav {
       }
 
       #text-container {
-        top: 60%;
-        font-size: 18px !important;
+        top: 70%;
+        font-size: 20px !important;
         padding: 16px;
       }
 
   }
 
-  @media (min-width: 321px) and (max-width: 399px) {
-    /* Styles to apply when the screen is 399px or less */
-    /* This is the width of an iPhone 12 and iPhone 13 mini, iPhone 12 mini, iPhone 11 Pro, iPhone Xs, and iPhone X */
+  @media (min-width: 389px) and (max-width: 450px) {
+    /* Styles to apply when the screen is 390x844px */
+    /* This is the width of an iPhone 12 Pro */
     #icon-phone {
         display: none;
     }
@@ -217,6 +217,7 @@ nav {
         top: 30%;
         left: 50%;
         font-size: 25px !important;
+        color: red;
     }
 
     h2 {
@@ -241,13 +242,13 @@ nav {
         top: 60%;
         font-size: 20px !important;
         padding: 16px;
-      }
+      } 
 
   }
 
-  @media (min-width: 400px) and  (max-width: 799px) {
+  /* @media (min-width: 400px) and  (max-width: 799px) { */
     /* Styles to apply when the screen is 799px or less */
-    /* This is the width of an iPad or other tablets in portrait orientation */
+    /* This is the width of an iPad or other tablets in portrait orientation
     #icon-phone {
         display: none;
     }
@@ -296,24 +297,24 @@ nav {
         top: 60%;
         font-size: 18px !important;
         padding: 16px;
-      }
+      } */
 
-  }
+  /* } */
 
-  @media (max-width: 1024px) {
+  /* @media (max-width: 1024px) { */
     /* Styles to apply when the screen is 1024px or less */
     /* This is the width of most tablets in landscape orientation */
-  }
+  /* } */
 
-  @media (max-width: 1440px) {
+  /* @media (max-width: 1440px) { */
     /* Styles to apply when the screen is 1440px or less */
     /* This is the width of many laptops and desktop monitors */
-  }
+  /* } */
 
-  @media (max-width: 1920px) {
+  /* @media (max-width: 1920px) { */
     /* Styles to apply when the screen is 1920px or less */
     /* This is the width of larger desktop monitors and some gaming laptops */
-  }
+  /* } */
   
 
 
