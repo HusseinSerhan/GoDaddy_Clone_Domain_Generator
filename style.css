@@ -193,6 +193,56 @@ nav {
   @media (max-width: 768px) {
     /* Styles to apply when the screen is 320px or less */
     /* This is the width of an iPad or other tablets in portrait orientation */
+    #icon-phone {
+        display: none;
+    }
+
+    #icon-question {
+        display: none;
+    }
+
+    #icon-person {
+        display: none;
+    }
+
+    #icon-cart {
+        display: none;
+    }
+
+    .navbar-icons {
+        display: none;
+    }
+
+    h1 {
+        top: 30%;
+        left: 50%;
+        font-size: 20px !important;
+    }
+
+    h2 {
+        top: 40%;
+        left: 50%;
+        font-size: 16px !important;
+    }
+
+    #generate-btn {
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 3;
+        font-family: 'Play', sans-serif !important;  
+        font-size: 12px;
+      }
+
+      #text-container {
+        top: 60%;
+        font-size: 18px !important;
+        padding: 16px;
+      }
+
   }
 
   @media (max-width: 1024px) {
