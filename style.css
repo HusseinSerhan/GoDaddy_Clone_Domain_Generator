@@ -90,6 +90,13 @@ h2 {
     border-radius: 10px;
 }
 
+/* NavBar */
+nav {
+    z-index: 3;
+}
+
+/* End NavBar */
+
 /* Rain Stuff */
 .rain-overlay {
     position: absolute;
