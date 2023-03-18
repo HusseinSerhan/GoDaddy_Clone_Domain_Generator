@@ -9,7 +9,7 @@ body {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: 'Play', sans-serif;  
+  font-family: 'Play', sans-serif !important;  
   }
  
   .container {
@@ -217,7 +217,6 @@ nav {
         top: 30%;
         left: 50%;
         font-size: 25px !important;
-        color: red;
     }
 
     h2 {
