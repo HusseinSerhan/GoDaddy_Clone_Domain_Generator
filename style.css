@@ -11,14 +11,6 @@ body {
   background-repeat: no-repeat;
   font-family: 'Play', sans-serif;  
   }
- 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    border: 10px solid red;
-  }
   
 button {
     padding: 10px 20px;
@@ -92,6 +84,10 @@ h2 {
 /* NavBar */
 nav {
     z-index: 3;
+}
+
+.bs-navbar-padding-y {
+    padding-bottom: 0rem;
 }
 
 
