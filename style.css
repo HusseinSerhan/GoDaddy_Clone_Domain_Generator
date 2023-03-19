@@ -30,7 +30,7 @@ button {
     display: block;
     margin: 0 auto;
     position: absolute;
-    top: 45%;
+    top: 2.8125rem;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 3;
