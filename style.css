@@ -16,7 +16,7 @@ body {
   font-family: 'Play', sans-serif;  
   }
   
-button {
+button.my-btn {
     padding: 0.3rem 0.8rem;
     color: white;
     background-color: black;
@@ -129,9 +129,87 @@ nav {
 
 
   /* Media Queries */
+  @media  (max-width: 320px)  {
+    /* Styles to apply when the screen width is 320px or smaller */
+    /* This media query is for Iphone SE or smaller devices */
+   
+    h1.my-class {
+        top: 48%;
+        font-size: 1.2rem;
+        padding: 0.6rem;
+        border-radius: 1rem; 
+    }
+
+    h2.my-class {
+        top: 60%;
+        font-size: 0.5rem;
+        padding: 0.5rem;
+        border-radius: 1rem;
+    }
+
+    button.my-btn {
+        padding: 0.3rem 0.8rem;
+        border-radius: 1rem;
+        box-shadow: 0px 0.0625rem 3.125rem rgba(0, 0, 0, 0.25);
+      }
+
+    #generate-btn {
+        top: 71%;  
+        font-size: 0.85rem;
+      }
+
+    #text-container {
+        top: 85%;
+        font-size: 1.25rem;
+        padding: 1rem;
+        border-radius: 0.625rem;
+      }
+    
+  }
+
+  @media  (max-width: 360px)  {
+    /* Styles to apply when the screen width is 360px or smaller */
+    /* This media query is for S22 Ultra or smaller devices */
+   
+    h1.my-class {
+        top: 35%;
+        font-size: 1.5rem;
+        padding: 0.6rem;
+        border-radius: 1rem; 
+    }
+
+    h2.my-class {
+        top: 45%;
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        border-radius: 1rem;
+    }
+
+    button.my-btn {
+        padding: 0.3rem 0.8rem;
+        border-radius: 1rem;
+        box-shadow: 0px 0.0625rem 3.125rem rgba(0, 0, 0, 0.25);
+      }
+
+    #generate-btn {
+        top: 55%;  
+        font-size: 0.95rem;
+      }
+
+    #text-container {
+        top: 65%;
+        font-size: 1.2rem;
+        padding: 1rem;
+        border-radius: 0.625rem;
+      }
+    
+  }
+
+
+
   @media  (max-width: 1000px)  {
     /* Styles to apply when the screen width is 1000px or smaller */
-    /* This is media query eliminates the icons in the navbar */
+    /* This media query eliminates the icons in the navbar */
     #icon-phone {
         display: none;
     }
@@ -152,164 +230,5 @@ nav {
         display: none;
     }
   }
-
-    /* h1 {
-        top: 40%;
-        left: 50%;
-        font-size: 18px !important;
-    } */
-
-    /* h2 {
-        top: 50%;
-        left: 50%;
-        font-size: 14px !important;
-    } */
-/* 
-    #generate-btn {
-        display: block;
-        margin: 0 auto;
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 3;
-        font-family: 'Play', sans-serif !important;  
-        font-size: 12px;
-      } */
-
-      /* #text-container {
-        top: 70%;
-        font-size: 20px !important;
-        padding: 16px;
-      } */
-
-
-  /* @media (min-width: 389px) and (max-width: 450px) { */
-    /* Styles to apply when the screen is 390x844px */
-    /* This is the width of an iPhone 12 Pro */
-    /* #icon-phone {
-        display: none;
-    }
-
-    #icon-question {
-        display: none;
-    }
-
-    #icon-person {
-        display: none;
-    }
-
-    #icon-cart {
-        display: none;
-    }
-
-    .navbar-icons {
-        display: none;
-    } */
-
-    /* h1 {
-        top: 30%;
-        left: 50%;
-        font-size: 25px !important;
-    } */
-
-    /* h2 {
-        top: 40%;
-        left: 50%;
-        font-size: 16px !important;
-    } */
-
-    /* #generate-btn {
-        display: block;
-        margin: 0 auto;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 3;
-        font-family: 'Play', sans-serif !important;  
-        font-size: 16px;
-      } */
-
-      /* #text-container {
-        top: 60%;
-        font-size: 20px !important;
-        padding: 16px;
-      }  */
-
-  /* } */
-
-  /* @media (min-width: 451px) and  (max-width: 770px) { */
-    /* Styles to apply when the screen is between 451px and 770px  */
-    /* /* This is the width of an iPad Mini  */
-    /* #icon-phone {
-        display: none;
-    } 
-
-    #icon-question {
-        display: none;
-    }
-
-    #icon-person {
-        display: none;
-    }
-
-    #icon-cart {
-        display: none;
-    }
-
-    .navbar-icons {
-        display: none;
-    } */
-
-    /* h1 {
-        top: 3%;
-        left: 50%;
-        font-size: 20px !important;
-    } */
-
-    /* h2 {
-        top: 40%;
-        left: 50%;
-        font-size: 16px !important;
-    } */
-
-    /* #generate-btn {
-        display: block;
-        margin: 0 auto;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 3;
-        font-family: 'Play', sans-serif !important;  
-        font-size: 1.6rem;
-      } */
-
-      /* #text-container {
-        top: 60%;
-        font-size: 40px !important;
-        padding: 16px;
-      } */
-
-  /* } */
-
-
-  /* @media (max-width: 1024px) { */
-    /* Styles to apply when the screen is 1024px or less */
-    /* This is the width of most tablets in landscape orientation */
-  /* } */
-
-  /* @media (max-width: 1440px) { */
-    /* Styles to apply when the screen is 1440px or less */
-    /* This is the width of many laptops and desktop monitors */
-  /* } */
-
-  /* @media (max-width: 1920px) { */
-    /* Styles to apply when the screen is 1920px or less */
-    /* This is the width of larger desktop monitors and some gaming laptops */
-  /* } */
-  
-
 
   /* End media queries */
