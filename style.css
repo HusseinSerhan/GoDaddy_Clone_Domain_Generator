@@ -52,7 +52,7 @@ button {
     border-radius: 0.625rem;
   }
 
- h1 {
+ .my-class h1 {
     position:absolute;
     text-align: center;
     color: white !important;
@@ -75,7 +75,7 @@ h2 {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.125rem !important;
+    font-size: 1rem;
     z-index: 1;
     font-weight: 400;
     font-family: 'Play', sans-serif !important;  
