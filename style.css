@@ -68,17 +68,17 @@ button {
     border-radius: 1rem; 
 }
   
-h2 {
+h2.my-class {
     position: absolute;
     text-align: center;
-    color: white !important;
+    color: white;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     z-index: 1;
     font-weight: 400;
-    font-family: 'Play', sans-serif !important;  
+    font-family: 'Play', sans-serif;  
     background-color: rgba(0,0,0,0.4);
     padding: 0.9rem;
     border-radius: 1rem;
@@ -87,10 +87,6 @@ h2 {
 /* NavBar */
 nav {
     z-index: 3;
-}
-
-.bs-navbar-padding-y {
-    padding-bottom: 0rem;
 }
 
 
