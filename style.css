@@ -52,20 +52,20 @@ button {
     border-radius: 0.625rem;
   }
 
- .my-class h1 {
-    position:absolute;
+ h1.my-class {
+    position: absolute;
     text-align: center;
-    color: white !important;
-    top: 25%;
+    color: white;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 25px;
-    z-index: 1;
+    font-size: 1.2rem;
+    z-index: 2;
     font-weight: 400;
-    font-family: 'Play', sans-serif !important; 
-    background-color: rgba(0,0,0,0.4);
-    padding: 10px;
-    border-radius: 10px; 
+    font-family: 'Play', sans-serif; 
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    border-radius: 1rem; 
 }
   
 h2 {
@@ -75,12 +75,12 @@ h2 {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1rem;
+    font-size: 0.8rem;
     z-index: 1;
     font-weight: 400;
     font-family: 'Play', sans-serif !important;  
     background-color: rgba(0,0,0,0.4);
-    padding: 1rem;
+    padding: 0.9rem;
     border-radius: 1rem;
 }
 
