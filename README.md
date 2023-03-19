@@ -23,8 +23,7 @@ The app includes a rain animation generated with CSS that replicates a Bladerunn
 The main goal of this project was to expose me to DOM methods like `addEventListener` and `getElementById`. In addition to practicing working with the DOM, I got exposure to media queries as I built the website to be responsive in screens of all size widths. Lastly, I got to use animations for the first time since I started working on web development.
 
 ## Live Site
-View the live site here: [Link](https://husseinserhan.github.io/GoD
-addy_Clone_Domain_Generator/)
+View the live site here: [Link](https://husseinserhan.github.io/GoDaddy_Clone_Domain_Generator/)
 
 ## Project Demo
 See the project in action here: [Demo](https://www.example.com)
