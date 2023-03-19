@@ -18,7 +18,6 @@ body {
     align-items: center;
     height: 100vh;
     font-family: 'Play', sans-serif !important;  
-
   }
   
 button {
@@ -135,7 +134,7 @@ nav {
 
 
   /* Media Queries */
-  @media (min-width: 375px) and (max-width: 388px)  {
+  @media  (max-width: 388px)  {
     /* Styles to apply when the screen is in between 375 and 389px */
     /* This is the width of an iPhone SE or other small smartphones */
     #icon-phone {
@@ -245,12 +244,12 @@ nav {
 
   }
 
-  /* @media (min-width: 400px) and  (max-width: 799px) { */
-    /* Styles to apply when the screen is 799px or less */
-    /* This is the width of an iPad or other tablets in portrait orientation
+  @media (min-width: 451px) and  (max-width: 770px) {
+    /* Styles to apply when the screen is between 451px and 770px  */
+    /* /* This is the width of an iPad Mini  */
     #icon-phone {
         display: none;
-    }
+    } 
 
     #icon-question {
         display: none;
@@ -268,17 +267,17 @@ nav {
         display: none;
     }
 
-    h1 {
-        top: 30%;
+    /* h1 {
+        top: 3%;
         left: 50%;
         font-size: 20px !important;
-    }
+    } */
 
-    h2 {
+    /* h2 {
         top: 40%;
         left: 50%;
         font-size: 16px !important;
-    }
+    } */
 
     #generate-btn {
         display: block;
@@ -289,16 +288,17 @@ nav {
         transform: translate(-50%, -50%);
         z-index: 3;
         font-family: 'Play', sans-serif !important;  
-        font-size: 12px;
+        font-size: 1.6rem;
       }
 
       #text-container {
         top: 60%;
-        font-size: 18px !important;
+        font-size: 40px !important;
         padding: 16px;
-      } */
+      }
 
-  /* } */
+  }
+
 
   /* @media (max-width: 1024px) { */
     /* Styles to apply when the screen is 1024px or less */
