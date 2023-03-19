@@ -129,9 +129,9 @@ nav {
 
 
   /* Media Queries */
-  @media  (max-width: 388px)  {
-    /* Styles to apply when the screen is in between 375 and 389px */
-    /* This is the width of an iPhone SE or other small smartphones */
+  @media  (max-width: 1000px)  {
+    /* Styles to apply when the screen width is 1000px or smaller */
+    /* This is media query eliminates the icons in the navbar */
     #icon-phone {
         display: none;
     }
@@ -151,6 +151,7 @@ nav {
     .navbar-icons {
         display: none;
     }
+  }
 
     /* h1 {
         top: 40%;
@@ -182,12 +183,11 @@ nav {
         padding: 16px;
       } */
 
-  }
 
-  @media (min-width: 389px) and (max-width: 450px) {
+  /* @media (min-width: 389px) and (max-width: 450px) { */
     /* Styles to apply when the screen is 390x844px */
     /* This is the width of an iPhone 12 Pro */
-    #icon-phone {
+    /* #icon-phone {
         display: none;
     }
 
@@ -205,7 +205,7 @@ nav {
 
     .navbar-icons {
         display: none;
-    }
+    } */
 
     /* h1 {
         top: 30%;
@@ -237,12 +237,12 @@ nav {
         padding: 16px;
       }  */
 
-  }
+  /* } */
 
-  @media (min-width: 451px) and  (max-width: 770px) {
+  /* @media (min-width: 451px) and  (max-width: 770px) { */
     /* Styles to apply when the screen is between 451px and 770px  */
     /* /* This is the width of an iPad Mini  */
-    #icon-phone {
+    /* #icon-phone {
         display: none;
     } 
 
@@ -260,7 +260,7 @@ nav {
 
     .navbar-icons {
         display: none;
-    }
+    } */
 
     /* h1 {
         top: 3%;
@@ -292,7 +292,7 @@ nav {
         padding: 16px;
       } */
 
-  }
+  /* } */
 
 
   /* @media (max-width: 1024px) { */
