@@ -129,19 +129,18 @@ nav {
 
 
   /* Media Queries */
-  @media  (max-width: 350px)  {
-    /* Styles to apply when the screen width is 320px or smaller */
-    /* This media query is for Iphone SE or smaller devices */
+  @media  (max-width: 350px) and (max-height: 500px) {
+    /* Styles to apply when the screen width is 350px or smaller */
    
     h1.my-class {
-        top: 38%;
-        font-size: 1.2rem;
+        top: 45%;
+        font-size: 1rem;
         padding: 0.6rem;
         border-radius: 1rem; 
     }
 
     h2.my-class {
-        top: 50%;
+        top: 55%;
         font-size: 0.5rem;
         padding: 0.5rem;
         border-radius: 1rem;
@@ -154,13 +153,13 @@ nav {
       }
 
     #generate-btn {
-        top: 61%;  
-        font-size: 0.85rem;
+        top: 65%;  
+        font-size: 0.8rem;
       }
 
     #text-container {
-        top: 75%;
-        font-size: 1.25rem;
+        top: 80%;
+        font-size: 1rem;
         padding: 1rem;
         border-radius: 0.625rem;
       }
