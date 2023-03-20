@@ -133,15 +133,15 @@ nav {
     /* Styles to apply when the screen width is 350px or smaller */
    
     h1.my-class {
-        top: 45%;
-        font-size: 1rem;
+        top: 50%;
+        font-size: 0.7rem;
         padding: 0.6rem;
         border-radius: 1rem; 
     }
 
     h2.my-class {
-        top: 55%;
-        font-size: 0.5rem;
+        top: 60%;
+        font-size: 0.4rem;
         padding: 0.5rem;
         border-radius: 1rem;
     }
@@ -150,18 +150,17 @@ nav {
         padding: 0.3rem 0.8rem;
         border-radius: 1rem;
         box-shadow: 0px 0.0625rem 3.125rem rgba(0, 0, 0, 0.25);
-        color: red;
       }
 
     #generate-btn {
-        top: 65%;  
-        font-size: 0.8rem;
+        top: 70%;  
+        font-size: 0.5rem;
       }
 
     #text-container {
         top: 80%;
-        font-size: 1rem;
-        padding: 1rem;
+        font-size: 0.7rem;
+        padding: 0.7rem;
         border-radius: 0.625rem;
       }
     
