@@ -129,7 +129,7 @@ nav {
 
 
   /* Media Queries */
-  @media  (max-width: 340px)  {
+  @media  (max-width: 345px)  {
     /* Styles to apply when the screen width is 320px or smaller */
     /* This media query is for Iphone SE or smaller devices */
    
@@ -167,7 +167,7 @@ nav {
     
   }
 
-  @media (min-width: 341px) and (max-width: 360px)  {
+  @media (min-width: 346px) and (max-width: 360px)  {
     /* Styles to apply when the screen width is 360px or smaller */
     /* This media query is for S22 Ultra or smaller devices */
    
