@@ -169,7 +169,7 @@ nav {
   
 
 
-  @media (min-width: 361px) and (max-width: 600px)  {
+  @media (min-width: 300px) and (max-width: 600px)  {
     /* Styles to apply when the screen width is 360px or smaller */
     /* This media query is for S22 Ultra or smaller devices */
    
