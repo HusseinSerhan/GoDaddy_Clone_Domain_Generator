@@ -7,8 +7,8 @@ View the live site here: [Link](https://husseinserhan.github.io/GoDaddy_Clone_Do
 
 ## Project Demo
 See the project in action here: 
-![Alt Text](GoDaddyClone-MacBook.gif)
-![Alt Text](GoDaddyClone-iPhone.gif)
+![Gif MacBook](GoDaddyClone-MacBook.gif)
+![Gif iPhone](GoDaddyClone-iPhone.gif)
 
 ## Project Files
 - `style.css`: Contains the CSS code for the project.
