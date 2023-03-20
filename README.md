@@ -2,6 +2,12 @@
 
 This is a project that generates a random domain name using a combination of pronouns, adjectives, nouns and extensions. The project is separated into three files: `style.css`, `index.html`, and `app.js`.
 
+## Live Site
+View the live site here: [Link](https://husseinserhan.github.io/GoDaddy_Clone_Domain_Generator/)
+
+## Project Demo
+See the project in action here: [Demo](https://www.example.com)
+
 ## Project Files
 - `style.css`: Contains the CSS code for the project.
 - `index.html`: Contains the HTML code for the project.
@@ -21,9 +27,3 @@ The app includes a rain animation generated with CSS that replicates a Bladerunn
 
 ## Main Goal
 The main goal of this project was to expose me to DOM methods like `addEventListener` and `getElementById`. In addition to practicing working with the DOM, I got exposure to media queries as I built the website to be responsive in screens of all size widths. Lastly, I got to use animations for the first time since I started working on web development.
-
-## Live Site
-View the live site here: [Link](https://husseinserhan.github.io/GoDaddy_Clone_Domain_Generator/)
-
-## Project Demo
-See the project in action here: [Demo](https://www.example.com)
