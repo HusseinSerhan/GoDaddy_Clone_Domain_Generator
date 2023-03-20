@@ -6,7 +6,7 @@ This is a project that generates a random domain name using a combination of pro
 View the live site here: [Link](https://husseinserhan.github.io/GoDaddy_Clone_Domain_Generator/)
 
 ## Project Demo
-See the project in action here: [Demo](assets/GoDaddyClone-iPhone.gif)
+See the project in action here: [Demo](GoDaddyClone-MacBook.gif)
 
 ## Project Files
 - `style.css`: Contains the CSS code for the project.
